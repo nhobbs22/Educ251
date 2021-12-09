@@ -181,9 +181,8 @@ h3 {
 }
 h4 {
     font-family: 'Roboto', sans-serif;
-  font-size: 16.5px;
+  font-size: 16px;
   line-height: 22px;
-  font-weight: 300;
 }
 
 h5 {
@@ -291,16 +290,9 @@ a.navbar-brand.active {
   width: 85%;
 }
 
-.pT {
-  padding-top: 5%;
-}
 .about {
     padding-top:30px;
     
-}
-
-.pB {
-  padding-bottom: 3%;
 }
 
 .padLR {
@@ -356,17 +348,6 @@ a.navbar-brand.active {
   line-height: 36px;
   font-weight: 300;
 
-}
-
-.overview {
-  font-size: 16.25px;
-  line-height: 28px;
-  font-weight: 300;
-}
-
-/*--------------Google dods--------------*/
-.venn{
-  
 }
 /*----------------------------------------Footer-----------------------------------------*/
 footer {
