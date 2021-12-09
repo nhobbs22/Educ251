@@ -364,6 +364,12 @@ a.navbar-brand.active {
   font-weight: 300;
 }
 
+.overBig {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
 /*--------------Google dods--------------*/
 .venn{
   
