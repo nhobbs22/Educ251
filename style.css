@@ -406,6 +406,34 @@ footer {
       font-size: 48px;
   }
 
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    
+    }
+  
+    25% {
+      opacity: 0%;
+ 
+    }
+  
+    50% {
+        opacity: 40%;
+        
+    }
+  
+    75% {
+      opacity: 70%;
+  
+  }
+
+    100% {
+      opacity: 1;
+      
+      
+    }
+  }
+  
   .fontSplash {
     font-size: 40px;
   }
