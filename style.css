@@ -414,12 +414,12 @@ footer {
   
     25% {
       opacity: 0%;
- 
+      letter-spacing: 3.5px;
     }
   
     50% {
         opacity: 40%;
-        
+        letter-spacing: 3.5px;
     }
   
     75% {
@@ -429,7 +429,7 @@ footer {
 
     100% {
       opacity: 1;
-      
+      letter-spacing: 3.5px;
       
     }
   }
