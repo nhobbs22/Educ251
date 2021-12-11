@@ -397,36 +397,47 @@ footer {
 @media (max-width: 576px) {
 
   h1 {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto Slab', serif;
       font-size: 24px;
       letter-spacing: -4px;
       font-weight: 700;
-      color: #510773;
+      color: #AFA3B5;
       text-align: center;
-      font-size: 68px;
+      font-size: 48px;
+  }
+
+  .fontSplash {
+    font-size: 40px;
   }
   h2 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: white;
+    font-family: 'tangerine', sans-serif;
+    font-size: 24px;
+    color:#BDC2FF;
+    }
+
+    .quoteSm {
+      font-size:18px;
     }
   h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    line-height: 28px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 20px;
   }
-  h4 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 18px;
+  h4, .overview, .overBig{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
   }
   
   h5 {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
   }
 
-  
+  .smRes {
+    height:50px;
+  }
  
 /*---Landscape Phones---*/
 
