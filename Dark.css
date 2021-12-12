@@ -1,17 +1,11 @@
 
 
+
   .navbar-nav {
     margin-left: auto;
 }
   
-  h2 {
-    color: black; 
-    font-size: 72px;
-    font-family: 'Delius Swash Caps', cursive;
-    font-family: 'Fredericka the Great', cursive;
-    letter-spacing: 4px;
-    font-weight: 800;
-  }
+
   
   .fadeIn {
   animation-name: fadeIn2;
@@ -181,8 +175,9 @@ h3 {
 }
 h4 {
     font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 16.5px;
   line-height: 22px;
+  font-weight: 300;
 }
 
 h5 {
@@ -209,7 +204,8 @@ h5 {
   background: linear-gradient(90deg, rgba(232,35,143,1) 0%, rgba(241,190,74,1) 35%, rgba(0,212,255,1) 100%)!important;
   background: rgb(237,54,154);
 background: linear-gradient(126deg, rgba(237,54,154,1) 0%, rgba(255,196,109,1) 48%, rgba(67,242,159,1) 100%);*/ 
-background-color: rgba(255, 255, 255, 0.6)!important;
+
+background-color: #120F0F !important;
 }
 
 .navbar-nav {
@@ -256,9 +252,11 @@ a.navbar-brand.active {
   text-shadow: 1px 1px 4px white;
  }
 /*---------------------------------Home Page----------------------------------------*/
-
+.body {
+    background-color: #120F0F !important;
+}
 .main {
-  margin-top: 2.25rem;
+  padding-top: 2.25rem;
     border: .0px solid #D1D1D1;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -272,27 +270,36 @@ a.navbar-brand.active {
     background-size: 600px;
     background-position: bottom;
     padding-left: 5%;
-    padding right: 5%;
+   
+    background-color: #120F0F;
 }
 
 .title {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background-color: #120F0F;
 }
 
 /*---------------------------------------About ME--------------------------------------*/
 .aboutMe {
-  margin-top: 1.6rem;
-  padding-top: 2rem;
-  background-color: rgba(255, 255, 255, 0.8);
+ 
+  padding-top: 2.6rem;
+  background-color: #120F0F;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
   width: 85%;
 }
 
+.pT {
+  padding-top: 5%;
+}
 .about {
     padding-top:30px;
     
+}
+
+.pB {
+  padding-bottom: 3%;
 }
 
 .padLR {
@@ -305,7 +312,7 @@ a.navbar-brand.active {
     width: 100%;
     height: auto; /* For at least Firefox */
     min-height: 100%; 
-    background-color: white !important;
+    background-color: #120F0F;
     padding-bottom: 5px;
 }
 
@@ -330,12 +337,14 @@ a.navbar-brand.active {
 .about {
     padding-left: 15%;
     padding-left: 15%;
+    background-color: #120F0F;
 }
 
 .lessons {
     padding-left: 15%;
     Padding-right: 15%;
     padding-top: 0%;
+    background-color: #120F0F;
 }
 
 
@@ -349,9 +358,29 @@ a.navbar-brand.active {
   font-weight: 300;
 
 }
+
+.overview {
+  font-size: 16.25px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.overBig {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.body {
+    background-color: #120F0F !important;
+}
+/*--------------Google dods--------------*/
+.venn{
+  
+}
 /*----------------------------------------Footer-----------------------------------------*/
 footer {
-  background-color: rgba(255, 255, 255, 0.4)!important;
+    background-color: #120F0F !important;
   margin-bottom:0 !important ;
   padding-bottom:0 !important ;
 }
@@ -372,36 +401,79 @@ footer {
 @media (max-width: 576px) {
 
   h1 {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto Slab', serif;
       font-size: 24px;
       letter-spacing: -4px;
       font-weight: 700;
-      color: #510773;
+      color: #AFA3B5;
       text-align: center;
-      font-size: 68px;
+      font-size: 48px;
+  }
+
+  @keyframes fadeIn2 {
+    0% {
+      opacity: 0;
+    
+    }
+  
+    25% {
+      opacity: 0%;
+      letter-spacing: 3.5px;
+    }
+  
+    50% {
+        opacity: 40%;
+        letter-spacing: 3.5px;
+    }
+  
+    75% {
+      opacity: 70%;
+  
+  }
+
+    100% {
+      opacity: 1;
+      letter-spacing: 3.5px;
+      
+    }
+  }
+  
+  .fontSplash {
+    font-size: 40px;
   }
   h2 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: white;
+    font-family: 'tangerine', sans-serif;
+    font-size: 30px;
+    color:#BDC2FF;
+    }
+
+    .venn {
+      height:200px;
+
+    }
+    .quoteSm {
+      font-size:20px;
     }
   h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    line-height: 28px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 20px;
   }
-  h4 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 18px;
+  h4, .overview, .overBig {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
   }
   
   h5 {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
   }
 
-  
+  .smRes {
+    height:50px;
+  }
  
 /*---Landscape Phones---*/
 

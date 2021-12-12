@@ -374,6 +374,16 @@ a.navbar-brand.active {
 .venn{
   
 }
+
+.card {
+  border: none !important;
+}
+
+
+
+.dropdown-item {
+  color: #510773;
+}
 /*----------------------------------------Footer-----------------------------------------*/
 footer {
   background-color: rgba(255, 255, 255, 0.4)!important;
@@ -440,19 +450,23 @@ footer {
   h2 {
     text-align: center;
     font-family: 'tangerine', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     color:#BDC2FF;
     }
 
+    .venn {
+      height:200px;
+
+    }
     .quoteSm {
-      font-size:18px;
+      font-size:20px;
     }
   h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     line-height: 20px;
   }
-  h4, .overview, .overBig{
+  h4, .overview, .overBig {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 16px;
